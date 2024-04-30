@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuk.InsideMenuActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_inside"
+    android:gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:layout_margin="30sp"
+    android:alpha="0.9">
+    <TextView
+        android:id="@+id/textViewBelepett"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üdv: név!"
+        android:textSize="30dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="20sp"
+        android:textColor="#2181AC"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <Button
+        android:id="@+id/buttonelso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="1. óra: Alapok"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_enter_btn"
+        />
+    <Button
+        android:id="@+id/buttonmasodik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="2. óra: Változók"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_enter_btn"
+        />
+    <Button
+        android:id="@+id/buttonharmadik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="3. óra: Ciklusok"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_enter_btn"
+        />
+    <Button
+        android:id="@+id/buttonnegyedik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="4. óra: Függvények"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_enter_btn"
+        />
+        <Button
+            android:id="@+id/ButtonScoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eredménytábla"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_enter_btn"
+            android:padding="5sp" />
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

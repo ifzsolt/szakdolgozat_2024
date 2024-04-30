@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ProgPal</string>
+    <string name="title_activity_valtozok1_ora">valtozok1Ora</string>
+    <string name="elsoora_anyaga">
+        \n<b>Mi is az a Programozás?</b>
+        \n
+        \nA programozás az a folyamat, amely során számítógépes programokat hozunk létre. Ezek a programok utasítások sorozataként határozzák meg, hogy a számítógép mit tegyen adott körülmények között.
+        \n
+        \n<b>Miért érdemes Programozást tanulni?</b>
+        \n
+        \n<b>Kreativitás kibontakoztatása:</b>
+        \nA programozás lehetővé teszi számodra, hogy saját ötleteidet valósítsd meg digitális formában.
+        \n
+        \n<b>Kereskedelmi lehetőségek: </b>
+        \nA programozás egyre inkább keresett szakma, és a digitális világban hatalmas lehetőségeket kínál a munkaerőpiacon.
+        \n
+        \n<b>Problémamegoldás:</b>
+        \nA programozás alapjait megtanulva jobban megértheted a logikai gondolkodást és hatékonyabban tudsz problémákat megoldani.
+        \n
+        \n
+        \n<b><p>Az Alapok</p></b>
+        \n<b><p>Programnyelvek</p></b>
+        \nA programozásnak számos nyelve létezik, amelyek mindegyike saját szabályokkal és szintaxissal rendelkezik. Néhány népszerű programnyelv:
+        \n
+        \n<b>Python:</b> Könnyen tanulható és olvasható, gyakran kezdőknek ajánlott.
+        \n
+        \n<b>Java:</b> Robosztus, több platformon futtatható nyelv, melyet gyakran használnak nagyvállalati alkalmazások fejlesztésére.
+        \n
+        \n<b>JavaScript:</b> Webfejlesztésre specializált nyelv, amely interaktív weboldalak és webalkalmazások készítésére szolgál.
+        \n
+        \n<b>C++:</b> Alacsony szintű, nagy teljesítményű nyelv, melyet sokszor játékok és rendszerszintű alkalmazások fejlesztésére használnak.
+        \n
+        \n
+        \n<b>Alapvető Koncepciók</b>
+        \n
+        \n<b>Változók:</b> A változók olyan tárolók, amelyek értéket tárolnak, például számokat vagy szövegeket.
+        \n
+        \n<b>Utasítások:</b> A programozás során utasításokat adunk a számítógépnek, például változók létrehozását vagy műveleteket velük.
+        \n
+        \n<b>Feltételes utasítások:</b> Ezek az utasítások döntési pontokat hoznak létre a programban, például ha valami igaz, akkor végezzen valamilyen műveletet.
+        \n
+        \n<b>Ciklusok:</b> A ciklusok segítségével ismétlődő feladatokat hajthatunk végre, például egy adatsor minden elemére alkalmazhatunk ugyanazt a műveletet.
+        \n
+        \n
+        \n<b>Összefoglalás</b>
+        \nA programozás alapvető fogalmakból és szabályokból áll. A programozás tanulása lépésről lépésre történik, és gyakorlással egyre jobban megérthető. Az alapvető koncepciók megértése után további nyelveket és fejlesztési módszereket tanulhatsz meg, hogy a programozásból hosszú távú és kreatív karriert építhess.
+    </string>
+    <string name="masodikora_anyaga">
+        \nA változók a programozás egyik alapvető fogalmai, melyek nélkülözhetetlenek a kódolás folyamatában. Ezek az entitások olyan tárolók, amelyek értéket tárolnak és amelyeket a program futása során bármikor módosíthatunk vagy lekérdezhetünk. A változók lehetnek különböző típusúak és lehetőséget biztosítanak a programok számára, hogy dinamikusan viselkedjenek az adatok feldolgozása során. Ebben a beszámolóban részletesen megvizsgáljuk a változók fontosságát, típusait és használatát a programozásban.
+        \n
+        \n
+        \n<b>A változók fontossága:</b>
+        \n
+        \nVáltozók nélkül a programok nem lennének képesek tárolni és manipulálni az adatokat. Ezek az adattárolók lehetővé teszik a programoknak, hogy állapotot tároljanak, az adatok között kommunikáljanak és változásokat hajtsanak végre az adatokon. Például egy számológép programban a változók tárolhatják a felhasználó által megadott számokat és az eredményeket.
+        \n
+        \n
+        \n<b>Változótípusok:</b>
+        \n
+        \n<b>Egész számok (integer):</b> Ezek az egész számokat tárolják, például: 1, 100, -5.
+        \n<b>Lebegőpontos számok (float):</b> Ezek a tizedes tört számokat tárolják, például: 3.14, -0.001.
+        \n<b>Karakterláncok (string):</b> Ezek a karakterek sorozatát tárolják, például: "hello", "world".
+        \n<b>Logikai értékek (boolean):</b> Ezek a logikai értékeket tárolják, például: True, False.
+        \n
+        \n
+        \n<b>Változódeklaráció és értékadás:</b>A változókat deklarálni kell, mielőtt használnánk őket. A deklaráció a változónak egy nevet ad, és megadja a típusát.
+        \n<b>Változómódosítás:</b>A változók értékét bármikor módosíthatjuk a program futása során.
+        \n<b>Változóhasználat:</b>A változókat bármikor használhatjuk egy programban az értékük lekérdezésére vagy manipulálására.
+        \n<b>Változók scope-ja:</b>A változók hatóköre azon kódterületet jelenti, ahol hozzáférhetőek. Például egy változó csak azon blokkban lesz elérhető, ahol deklarálva van.
+        \n
+        \n
+        \n<b>Összefoglalás:</b>
+        \n
+        \nA változók kulcsfontosságúak a programozásban, mivel lehetővé teszik az adatok tárolását és manipulálását. Fontos megérteni a változótípusokat, a változódeklarációt és az értékadást, valamint a változók hatókörét. A megfelelő változóhasználat javítja a kód olvashatóságát és karbantarthatóságát, és lehetővé teszi a programok dinamikus viselkedését.
+    </string>
+    <string name="harmadikora_anyaga">
+        \nAz elágazások segítségével a programok dinamikusan reagálhatnak az adatokra és a felhasználói inputra. Ebben a beszámolóban részletesen elemezzük az if-else, else if és switch elágazásokat, valamint bemutatjuk, hogyan alkalmazzák ezeket a programozásban.
+        \n
+        \n<b>if-else elágazás:</b>
+        \nAz if-else elágazás lehetővé teszi a programoknak, hogy különböző kódblokkokat futtassanak, attól függően, hogy egy adott feltétel igaz vagy hamis.
+        \n
+        \n<b>else if elágazás:</b>
+        \nAz else if elágazás (amit Pythonban elif-nek neveznek) további feltételeket adhat meg az if után, hogy további ágakat adjon a programnak.
+        \n
+        \n<b>switch elágazás:</b>
+        \nA switch elágazás lehetővé teszi a programoknak, hogy különböző cselekvéseket hajtsanak végre az egyes esetek alapján. Bár a Python nyelv alapból nem támogatja a switch szerkezetet, az if-elif-else konstrukcióval helyettesíthető.
+        \n
+        \n
+        \n<b>Összefoglalás:</b>
+        \nAz elágazások kulcsfontosságúak a programozásban, mivel lehetővé teszik a programoknak a dinamikus viselkedést különböző feltételek alapján. Az if-else és elif szerkezetek segítenek a programoknak az adatokra való reagálásban és a különböző kódblokkok futtatásában a feltételek alapján.Fontos megérteni és hatékonyan használni ezeket az elágazásokat a programok írása során.
+    </string>
+    <string name="begyedikora_anyaga">
+        \nA ciklusok alapvető programozási szerkezetek, amelyek lehetővé teszik, hogy bizonyos műveleteket vagy utasításokat ismételten hajtsunk végre egy adott feltétel teljesülése esetén. Két fő típusa van: a while ciklus és a for ciklus. Mindkettő hasznos eszköz a kód ismétlődő részeinek egyszerűsítésére és hatékonyabbá tételére.
+        \n
+        \n<b>while Ciklus:</b>
+        \nA while ciklus addig ismétel egy kódblokkot, amíg egy megadott feltétel igaz. Például, ha azt szeretnénk, hogy egy program addig kérjen be adatokat a felhasználótól, amíg az nem ad meg egy helyes választ.
+        \nA <b>"feltétel"</b> egy logikai kifejezés, például egy összehasonlítás vagy egy logikai művelet, amelyet minden cikluslépés előtt kiértékelnek. Amint a feltétel hamis lesz, a ciklus végrehajtása befejeződik, és a vezérlés a következő utasításra lép.
+        \n<b>for Ciklus:</b>
+        \nA for ciklus egy adott szekvenciában (például egy listában vagy egy karakterláncban) lévő elemeken iterál végig, és minden elemre végrehajt egy adott műveletet. Például, ha szeretnénk végigmenni egy lista összes elemén.
+        \nA <b>"szekvencia"</b> egy olyan adatszerkezet, amely tartalmazza az elemeket, amelyeken végig kell menni. Az "elem" változó az adott cikluslépésben a szekvencia egy aktuális eleme lesz.
+        \n
+        \n<b>Összefoglalás:</b>
+        \nA ciklusok segítségével a kód rövidebb és átláthatóbb lesz, és ismétlődő feladatokat lehet egyszerűen végrehajtani.
+    </string>
+
+    <string name="action_settings">Settings</string>
+</resources>

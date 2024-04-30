@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orak.NegyedikOraCiklusokActivity"
+    android:background="@drawable/bg_inside">
+    <LinearLayout
+        android:id="@+id/lo_belso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_enter_btn"
+                android:padding="10sp"
+                android:drawableStart="@drawable/icon_mini_back"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttontest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ugrás a tesztre"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_enter_btn"
+                android:padding="10sp"
+                android:drawableEnd="@drawable/icon_mini_next"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="4. Óra: Ciklusok"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/lo_belso"
+        android:background="@drawable/default_option_border_bg"
+        android:layout_margin="5sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/begyedikora_anyaga"
+                android:textSize="20dp"
+                android:layout_margin="10sp"
+                android:id="@+id/TextView1ora" />
+    </ScrollView>
+</RelativeLayout>
