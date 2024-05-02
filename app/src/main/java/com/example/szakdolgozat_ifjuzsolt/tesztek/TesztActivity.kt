@@ -11,7 +11,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.example.szakdolgozat_ifjuzsolt.Constats
+import com.example.szakdolgozat_ifjuzsolt.Constants
 import com.example.szakdolgozat_ifjuzsolt.Question
 import com.example.szakdolgozat_ifjuzsolt.R
 import com.example.szakdolgozat_ifjuzsolt.ResultActivity
@@ -35,7 +35,7 @@ class TesztActivity : AppCompatActivity(), OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_teszt)
 
-        mUserName = intent.getStringExtra(Constats.USER_NAME)
+        mUserName = intent.getStringExtra(Constants.USER_NAME)
 
         progressBar = findViewById(R.id.progressBar)
         tv_progress = findViewById(R.id.tv_progress)
@@ -46,7 +46,7 @@ class TesztActivity : AppCompatActivity(), OnClickListener {
         tv_option_four = findViewById(R.id.tv_option_four)
         btn_submit = findViewById(R.id.btn_submit)
 
-        mQuestionsList = Constats.getQuestions()
+        mQuestionsList = Constants.getQuestions()
         setQuestion()
 
         tv_option_one.setOnClickListener(this)
@@ -125,9 +125,9 @@ class TesztActivity : AppCompatActivity(), OnClickListener {
                             setQuestion()
                         }else ->{
                             val intent = Intent(this,ResultActivity::class.java)
-                            intent.putExtra(Constats.USER_NAME, mUserName)
-                            intent.putExtra(Constats.CORRECT_ANSWERS, mCorrectAnswers)
-                            intent.putExtra(Constats.TOTAL_QUESTIONS, mQuestionsList!!.size)
+                            intent.putExtra(Constants.USER_NAME, mUserName)
+                            intent.putExtra(Constants.CORRECT_ANSWERS, mCorrectAnswers)
+                            intent.putExtra(Constants.TOTAL_QUESTIONS, mQuestionsList!!.size)
                             startActivity(intent)
                         }
                     }

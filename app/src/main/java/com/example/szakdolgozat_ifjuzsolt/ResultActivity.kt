@@ -16,10 +16,10 @@ class ResultActivity : AppCompatActivity() {
         val tv_score = findViewById<TextView>(R.id.tv_score)
         val btn_finish = findViewById<TextView>(R.id.btn_finish)
 
-        val username = intent.getStringExtra(Constats.USER_NAME)
+        val username = intent.getStringExtra(Constants.USER_NAME)
         tv_name.text = username
-        val totalQuestions = intent.getIntExtra(Constats.TOTAL_QUESTIONS,0)
-        val correctAnswer = intent.getIntExtra(Constats.CORRECT_ANSWERS,0)
+        val totalQuestions = intent.getIntExtra(Constants.TOTAL_QUESTIONS,0)
+        val correctAnswer = intent.getIntExtra(Constants.CORRECT_ANSWERS,0)
 
         tv_score.text = "Az elért pontszám:  $correctAnswer / $totalQuestions"
         btn_finish.setOnClickListener {

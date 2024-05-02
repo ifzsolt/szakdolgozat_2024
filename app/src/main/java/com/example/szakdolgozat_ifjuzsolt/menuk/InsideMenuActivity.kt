@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import com.example.szakdolgozat_ifjuzsolt.Constats
+import com.example.szakdolgozat_ifjuzsolt.Constants
 import com.example.szakdolgozat_ifjuzsolt.PontszamokActivity
 import com.example.szakdolgozat_ifjuzsolt.R
 import com.example.szakdolgozat_ifjuzsolt.orak.ElsoOraAlapokActivity
@@ -28,28 +28,28 @@ class InsideMenuActivity : AppCompatActivity() {
 
         button1.setOnClickListener{
             val intent = Intent(this, ElsoOraAlapokActivity::class.java)
-            intent.putExtra(Constats.USER_NAME, username)
+            intent.putExtra(Constants.USER_NAME, username)
             startActivity(intent)
         }
         button2.setOnClickListener{
             val intent = Intent(this, MasodikOraValtozokActivity::class.java)
-            intent.putExtra(Constats.USER_NAME, username)
+            intent.putExtra(Constants.USER_NAME, username)
             startActivity(intent)
         }
         button3.setOnClickListener{
             val intent = Intent(this, HarmadikOraElagazasokActivity::class.java)
-            intent.putExtra(Constats.USER_NAME, username)
+            intent.putExtra(Constants.USER_NAME, username)
             startActivity(intent)
         }
         button4.setOnClickListener{
             val intent = Intent(this, NegyedikOraCiklusokActivity::class.java)
-            intent.putExtra(Constats.USER_NAME, username)
+            intent.putExtra(Constants.USER_NAME, username)
             startActivity(intent)
         }
 
         buttonscoreboard.setOnClickListener{
             val scoreboard = Intent(this, PontszamokActivity::class.java)
-            scoreboard.putExtra(Constats.USER_NAME, username)
+            scoreboard.putExtra(Constants.USER_NAME, username)
             startActivity(scoreboard)
         }
     }
